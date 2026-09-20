@@ -1,2 +1,8 @@
-# Web-Development
-A collection of basic web development projects and practice programs using HTML, CSS, and JavaScript.
+# Web Development
+
+This repository contains basic web development projects and practice.
+
+## Technologies
+- HTML
+- CSS
+- JavaScript
