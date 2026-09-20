@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Card Design</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            width: 280px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px gray;
+            text-align: center;
+        }
+
+        .card h2 {
+            color: #333;
+        }
+
+        .card p {
+            color: #666;
+            line-height: 1.5;
+        }
+
+        .card button {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .card button:hover {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="text-align:center;">Our Courses</h1>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>C++ Programming</h2>
+            <p>
+                Learn the fundamentals of C++ programming,
+                arrays, functions and OOP.
+            </p>
+            <button>Learn More</button>
+        </div>
+
+        <div class="card">
+            <h2>Web Development</h2>
+            <p>
+                Learn HTML, CSS and JavaScript to build
+                modern websites.
+            </p>
+            <button>Learn More</button>
+        </div>
+
+        <div class="card">
+            <h2>SQL</h2>
+            <p>
+                Learn databases, queries, joins, subqueries
+                and database management.
+            </p>
+            <button>Learn More</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
